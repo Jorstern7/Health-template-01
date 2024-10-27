@@ -1,0 +1,458 @@
+/* *************************** */
+/* BELOW 1344PX (smaller desktop) */
+/* *************************** */
+
+@media (max-width: 84em) {
+  .header__section {
+    max-width: 120rem;
+  }
+
+  section {
+    height: 90vh;
+  }
+}
+
+/* *************************** */
+/* BELOW 1200PX (Landscape Tablet) */
+/* *************************** */
+
+@media (max-width: 75em) {
+  /* Set font size for HTML to 56.25% for better scaling */
+  html {
+    font-size: 56.25%; /* 1rem = 9px */
+  }
+
+  h1 {
+    font-size: 4.8rem;
+  }
+
+  section {
+    height: 90vh;
+  }
+
+  .nav__header {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .inside-header {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 8rem;
+  }
+
+  .inside__div-header {
+    width: 50%;
+  }
+
+  .accordions {
+    width: 70%;
+    margin: 4rem auto 10rem auto;
+  }
+
+  .item {
+    padding: 1.2rem 1.6rem;
+  }
+}
+
+/* *************************** */
+/* BELOW 944PX (Landscape Tablet) */
+/* *************************** */
+
+/* Media query for screens smaller than 944px (59em) */
+@media (max-width: 59em) {
+  /* Set font size for HTML to 50% for better scaling */
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .nav__header {
+    width: 80%;
+    padding: 1.6rem;
+  }
+
+  .inside-header {
+    width: 90%;
+  }
+
+  .inside__div-header {
+    width: 50%;
+  }
+
+  .accordions {
+    width: 80%;
+    margin: 3rem auto 0 auto;
+  }
+
+  .item {
+    padding: 1rem 1.4rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  section {
+    height: 90vh;
+  }
+
+  footer {
+    padding: 1.5rem 0;
+  }
+}
+
+/* *************************** */
+/* BELOW 704PX (SMALLER Tablet) */
+/* *************************** */
+
+/* Media query for screens smaller than 704px (44em) */
+@media (max-width: 44em) {
+  /* Set font size for HTML to 43.75% for better scaling */
+
+  /* Adjust font sizes for headers */
+
+  h3 {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  header p {
+    margin-bottom: 3.2rem;
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    width: 80%;
+    padding: 1.2rem;
+  }
+
+  .inside-header {
+    width: 80%;
+    padding: 0 1rem;
+  }
+
+  .inside__div-header {
+    width: 70%;
+  }
+
+  .custom-button {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .accordions {
+    width: 80%;
+    margin: 2rem auto 6rem auto;
+  }
+
+  .item {
+    padding: 1rem 1.2rem;
+  }
+
+  .number {
+    font-size: 1.8rem;
+  }
+
+  .header-text {
+    font-size: 1.8rem;
+  }
+
+  .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  footer {
+    padding: 1rem 0;
+  }
+}
+
+/* *************************** */
+/* BELOW 544PX (Phones) */
+/* *************************** */
+
+/* Media query for screens smaller than 544px (34em) */
+@media (max-width: 34em) {
+  /* Adjust font sizes for headers */
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 2rem; /* Adjusted from 2.4rem */
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  header p {
+    font-size: 1.8rem;
+    margin-bottom: 2.8rem;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header {
+    height: 90vh;
+    background-size: cover;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    display: none;
+  }
+
+  .inside-header {
+    padding: 0 0.8rem;
+    width: 100%;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 30rem auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 20rem;
+  }
+
+  .img-3 {
+    width: 22rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-top: 24rem;
+    margin-right: 24rem;
+  }
+
+  /* Base style for all images */
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* First image (bottom layer) */
+  .img-1 {
+    z-index: 3; /* Lowest layer */
+    transform: translate(-4rem, 7.5rem);
+  }
+
+  /* Second image (middle layer) */
+  .img-2 {
+    z-index: 2;
+    transform: translate(10rem, 5rem); /* Shift right and up */
+  }
+
+  /* Third image (top layer) */
+  .img-3 {
+    z-index: 1;
+    transform: translate(1rem, -4rem);
+  }
+
+  .custom-button {
+    font-size: 1.6rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .accordions {
+    width: 70%;
+    margin: 1.5rem auto 4rem auto;
+  }
+
+  .item {
+    padding: 0.8rem 1rem;
+  }
+
+  .number {
+    font-size: 1.6rem;
+  }
+
+  .header-text {
+    font-size: 1.6rem;
+  }
+
+  .icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+  }
+
+  section {
+    height: auto;
+    padding: 2rem 0;
+  }
+}
+
+/* *************************** */
+/* BELOW 300PX (Phones) */
+/* *************************** */
+
+@media (max-width: 18.75em) {
+  /* 18.75em equals 300px */
+  h1 {
+    line-height: 1.2;
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  p {
+    line-height: 1.4;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header p {
+    margin-bottom: 1.8rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.8rem 1.6rem;
+  }
+
+  .inside-header {
+    padding: 0 0.6rem;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 20rem auto;
+  }
+
+  /* Image sizes and container adjustments */
+  .img-1,
+  .img-2 {
+    width: 14rem;
+  }
+
+  .img-3 {
+    width: 16rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-left: 8rem;
+    margin-top: 40rem;
+  }
+
+  /* Base style for all images */
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* First image */
+  .img-1 {
+    z-index: 3;
+    transform: translate(-2rem, 5.5rem);
+  }
+
+  /* Second image */
+  .img-2 {
+    z-index: 2;
+    transform: translate(6rem, 4rem);
+  }
+
+  /* Third image */
+  .img-3 {
+    z-index: 1;
+    transform: translate(0.5rem, -3rem);
+  }
+
+  .custom-button {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .accordions {
+    width: 90%;
+    margin: 1rem auto 3rem auto;
+  }
+
+  .item {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .number {
+    font-size: 1.9rem;
+  }
+
+  .header-text {
+    font-size: 1.9rem;
+  }
+
+  .icon {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  section {
+    padding: 1.5rem 0;
+  }
+}
