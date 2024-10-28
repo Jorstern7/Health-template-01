@@ -157,6 +157,11 @@
     line-height: 1;
   }
 
+  h3 {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
   p {
     line-height: 1.5;
   }
@@ -177,7 +182,7 @@
   }
 
   header {
-    height: 90vh;
+    height: 80vh;
     background-size: cover;
   }
 
@@ -214,7 +219,7 @@
     position: absolute;
     display: block;
     width: fit-content;
-    margin-top: 24rem;
+    margin-top: 18rem;
     margin-right: 24rem;
   }
 
@@ -252,7 +257,7 @@
 
   .accordions {
     width: 70%;
-    margin: 1.5rem auto 4rem auto;
+    margin: 1.5rem auto 5rem auto;
   }
 
   .item {
