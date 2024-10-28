@@ -112,11 +112,7 @@
 
 /* Media query for screens smaller than 704px (44em) */
 @media (max-width: 44em) {
-  /* Set font size for HTML to 43.75% for better scaling */
-
-  /* Adjust font sizes for headers */
-
-  h3 {
+  /* h3 {
     width: 90%;
     margin: 3rem auto;
   }
@@ -125,7 +121,6 @@
     margin-bottom: 3.2rem;
   }
 
-  /* Adjust padding, margins, and layout for smaller screens */
   .nav__header {
     width: 80%;
     padding: 1.2rem;
@@ -156,6 +151,122 @@
 
   footer {
     padding: 1rem 0;
+  } */
+
+  h1 {
+    line-height: 1;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  header p {
+    font-size: 1.8rem;
+    margin-bottom: 2.8rem;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header {
+    height: 90vh;
+    background-size: cover;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    display: none;
+  }
+
+  .inside-header {
+    padding: 0 0.8rem;
+    width: 100%;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 30rem auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 20rem;
+  }
+
+  .img-3 {
+    width: 22rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-top: 24rem;
+    margin-right: 24rem;
+  }
+
+  /* Base style for all images */
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* First image (bottom layer) */
+  .img-1 {
+    z-index: 3; /* Lowest layer */
+    transform: translate(-4rem, 7.5rem);
+  }
+
+  /* Second image (middle layer) */
+  .img-2 {
+    z-index: 2;
+    transform: translate(10rem, 5rem); /* Shift right and up */
+  }
+
+  /* Third image (top layer) */
+  .img-3 {
+    z-index: 1;
+    transform: translate(1rem, -4rem);
+  }
+
+  .custom-button {
+    font-size: 1.6rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .accordions {
+    width: 70%;
+    margin: 1.5rem auto 4rem auto;
+  }
+
+  .item {
+    padding: 0.8rem 1rem;
+  }
+
+  footer {
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+  }
+
+  section {
+    height: auto;
+    padding: 2rem 0;
   }
 }
 
