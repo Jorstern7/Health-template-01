@@ -97,11 +97,6 @@
     padding: 1rem 1.4rem;
   }
 
-  /* .icon {
-    width: 2rem;
-    height: 2rem;
-  } */
-
   section {
     height: 90vh;
   }
@@ -158,19 +153,6 @@
   .item {
     padding: 1rem 1.2rem;
   }
-
-  /* .number {
-    font-size: 1.8rem;
-  }
-
-  .header-text {
-    font-size: 1.8rem;
-  }
-
-  .icon {
-    width: 1.8rem;
-    height: 1.8rem;
-  } */
 
   footer {
     padding: 1rem 0;
@@ -295,23 +277,6 @@
     padding: 0.8rem 1rem;
   }
 
-  /* .number {
-    font-size: 1.6rem;
-  }
-
-  .header-text {
-    font-size: 1.6rem;
-  }
-
-  .icon {
-    width: 2rem;
-    height: 2rem;
-  }
-
-  .hidden-box ul {
-    font-size: 1.4rem;
-  } */
-
   footer {
     padding: 0.8rem 0;
     font-size: 1.4rem;
@@ -429,23 +394,6 @@
   .item {
     padding: 0.6rem 0.8rem;
   }
-
-  /* .number {
-    font-size: 1.9rem;
-  }
-
-  .header-text {
-    font-size: 1.9rem;
-  }
-
-  .icon {
-    width: 1.8rem;
-    height: 1.8rem;
-  }
-
-  .hidden-box ul {
-    font-size: 1.8rem;
-  } */
 
   footer {
     padding: 0.5rem 0;
