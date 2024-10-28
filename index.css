@@ -261,7 +261,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1.5rem; /* More space between list items */
-  font-size: 1.6rem; /* Increase font size for list items */
+  font-size: 1.8rem; /* Increase font size for list items */
   line-height: 1.6; /* Improve readability */
 }
 
