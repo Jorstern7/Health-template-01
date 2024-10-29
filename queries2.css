@@ -1,0 +1,473 @@
+/* *************************** */
+/* BELOW 1344PX (smaller desktop) */
+/* *************************** */
+
+@media (max-width: 84em) {
+  .header__section {
+    max-width: 120rem;
+  }
+
+  section {
+    height: 90vh;
+  }
+}
+
+/* *************************** */
+/* BELOW 1200PX (Landscape Tablet) */
+/* *************************** */
+
+/* Media query for screens smaller than 1200px (75em) */
+@media (max-width: 75em) {
+  /* Set font size for HTML to 56.25% for better scaling */
+  html {
+    font-size: 56.25%; /* 1rem = 9px */
+  }
+
+  /* Adjust font sizes for headers */
+  h1 {
+    font-size: 4.8rem; /* Adjusted from 5.2rem to 4.8rem */
+  }
+
+  h2 {
+    font-size: 4rem; /* Adjusted from 4.4rem to 4rem */
+  }
+
+  h3 {
+    font-size: 2.2rem; /* Adjusted from 2.4rem to 2.2rem */
+  }
+
+  /* Adjust padding and margins for better layout on smaller screens */
+  .nav__header {
+    width: 100%;
+    padding: 2rem; /* Adjust padding for smaller screens */
+  }
+
+  .inside-header {
+    width: 100%; /* Make inside-header full width */
+  }
+
+  .inside__div-header {
+    width: 80%; /* Adjust content width */
+  }
+
+  .accordions {
+    width: 90%; /* Make accordions take more width */
+    margin: 4rem auto 10rem auto; /* Adjust margins */
+  }
+
+  .item {
+    padding: 1.2rem 1.6rem; /* Reduce padding for smaller viewports */
+  }
+
+  .hidden-box ul {
+    font-size: 1.4rem; /* Adjust list item font size */
+  }
+}
+
+/* *************************** */
+/* BELOW 944PX (Landscape Tablet) */
+/* *************************** */
+
+/* Media query for screens smaller than 944px (59em) */
+@media (max-width: 59em) {
+  /* Set font size for HTML to 50% for better scaling */
+  html {
+    font-size: 50%; /* 1rem = 8px */
+  }
+
+  /* Adjust font sizes for headers */
+  h1 {
+    font-size: 4rem; /* Adjusted from 5.2rem */
+  }
+
+  h2 {
+    font-size: 3.6rem; /* Adjusted from 4.4rem */
+  }
+
+  h3 {
+    font-size: 2rem; /* Adjusted from 2.4rem */
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    width: 100%;
+    padding: 1.6rem; /* Reduced padding */
+  }
+
+  .inside-header {
+    width: 90%; /* Make inside-header take most of the width */
+  }
+
+  .inside__div-header {
+    width: 90%; /* Adjust content width */
+  }
+
+  header p {
+    font-size: 1.4rem; /* Reduced paragraph font size */
+  }
+
+  .accordions {
+    width: 95%; /* Take more screen width */
+    margin: 3rem auto 8rem auto; /* Adjust margins */
+  }
+
+  .item {
+    padding: 1rem 1.4rem; /* Reduced padding for items */
+  }
+
+  .number {
+    font-size: 1.4rem; /* Slightly reduced font size for numbers */
+  }
+
+  .header-text {
+    font-size: 1.4rem; /* Reduced text font size */
+  }
+
+  .icon {
+    width: 2rem; /* Reduced icon size */
+    height: 2rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.2rem; /* Reduced font size for list items */
+  }
+
+  footer {
+    padding: 1.5rem 0; /* Adjusted padding for footer */
+  }
+}
+
+/* *************************** */
+/* BELOW 704PX (SMALLER Tablet) */
+/* *************************** */
+
+/* Media query for screens smaller than 704px (44em) */
+@media (max-width: 44em) {
+  /* Set font size for HTML to 43.75% for better scaling */
+  html {
+    font-size: 43.75%; /* 1rem = 7px */
+  }
+
+  /* Adjust font sizes for headers */
+  h1 {
+    font-size: 3.5rem; /* Adjusted from 5.2rem */
+  }
+
+  h2 {
+    font-size: 3rem; /* Adjusted from 4.4rem */
+  }
+
+  h3 {
+    font-size: 1.8rem; /* Adjusted from 2.4rem */
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    width: 100%;
+    padding: 1.2rem; /* Reduced padding */
+  }
+
+  .inside-header {
+    width: 100%; /* Make inside-header take up full width */
+    padding: 0 1rem; /* Add some horizontal padding */
+  }
+
+  .inside__div-header {
+    width: 100%; /* Adjust content width */
+  }
+
+  header p {
+    font-size: 1.4rem; /* Keep paragraph font size readable */
+    margin-bottom: 3.2rem; /* Adjust margin */
+  }
+
+  .custom-button {
+    font-size: 1.8rem; /* Adjust button text size */
+    padding: 0.8rem 1.6rem; /* Reduce padding */
+  }
+
+  .accordions {
+    width: 100%; /* Full width for smaller screens */
+    margin: 2rem auto 6rem auto; /* Adjust margins */
+  }
+
+  .item {
+    padding: 1rem 1.2rem; /* Reduce padding */
+  }
+
+  .number {
+    font-size: 1.2rem; /* Reduce number font size */
+  }
+
+  .header-text {
+    font-size: 1.2rem; /* Reduce question text size */
+  }
+
+  .icon {
+    width: 1.8rem; /* Reduce icon size */
+    height: 1.8rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.2rem; /* Keep list items readable */
+  }
+
+  footer {
+    padding: 1rem 0; /* Adjust footer padding */
+  }
+}
+
+/* *************************** */
+/* BELOW 544PX (Phones) */
+/* *************************** */
+
+@media (max-width: 34em) {
+  /* Adjust font sizes for headers */
+  h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  h3 {
+    font-size: 2rem; /* Adjusted from 2.4rem */
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  header p {
+    font-size: 1.8rem;
+    margin-bottom: 2.8rem;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header {
+    height: 100vh;
+    background-size: cover;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    display: none;
+  }
+
+  .inside-header {
+    padding: 0 0.8rem;
+    width: 100%;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 30rem auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 20rem;
+  }
+
+  .img-3 {
+    width: 22rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-top: 24rem;
+    margin-right: 24rem;
+  }
+
+  /* Base style for all images */
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* First image (bottom layer) */
+  .img-1 {
+    z-index: 3; /* Lowest layer */
+    transform: translate(-4rem, 7.5rem);
+  }
+
+  /* Second image (middle layer) */
+  .img-2 {
+    z-index: 2;
+    transform: translate(10rem, 5rem); /* Shift right and up */
+  }
+
+  /* Third image (top layer) */
+  .img-3 {
+    z-index: 1;
+    transform: translate(1rem, -4rem);
+  }
+
+  .custom-button {
+    font-size: 1.6rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .accordions {
+    width: 70%;
+    margin: 1.5rem auto 4rem auto;
+  }
+
+  .item {
+    padding: 0.8rem 1rem;
+  }
+
+  footer {
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+  }
+
+  section {
+    height: auto;
+    padding: 2rem 0;
+  }
+}
+
+/* *************************** */
+/* BELOW 300PX (Phones) */
+/* *************************** */
+
+@media (max-width: 18.75em) {
+  h1 {
+    line-height: 1;
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    line-height: 1.2;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header p {
+    font-size: 1.4rem;
+    margin-bottom: 1.8rem;
+    width: 90%;
+    text-align: center;
+    margin: 2rem auto;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.4rem 1.2rem;
+  }
+
+  .inside-header {
+    padding: 0;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 20rem auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 14rem;
+  }
+
+  .img-3 {
+    width: 16rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-left: 8rem;
+    margin-top: 24rem;
+  }
+
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .img-1 {
+    z-index: 3;
+    transform: translate(-2rem, 5.5rem);
+  }
+
+  .img-2 {
+    z-index: 2;
+    transform: translate(6rem, 4rem);
+  }
+
+  .img-3 {
+    z-index: 1;
+    transform: translate(0.5rem, -3rem);
+  }
+
+  .custom-button {
+    font-size: 1.4rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .accordions {
+    width: 90%;
+    margin: 1rem auto 3rem auto;
+  }
+
+  .item {
+    padding: 0.6rem 0.8rem;
+  }
+
+  .number {
+    font-size: 1.5rem;
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.4rem;
+  }
+
+  footer {
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  section {
+    padding: 1.5rem 0;
+  }
+}
