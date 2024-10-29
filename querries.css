@@ -182,7 +182,7 @@
   }
 
   header {
-    height: 80vh;
+    height: 90vh;
     background-size: cover;
   }
 
@@ -311,7 +311,7 @@
   }
 
   header {
-    height: 90vh;
+    height: 120vh;
     background-size: cover;
   }
 
@@ -409,24 +409,23 @@
 /* *************************** */
 
 @media (max-width: 18.75em) {
-  /* 18.75em equals 300px */
   h1 {
-    line-height: 1.2;
-    font-size: 3.2rem;
+    line-height: 1;
+    font-size: 2.5rem;
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   p {
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   header {
     background-image: none;
     background: linear-gradient(135deg, #a8e063, #37b24d);
-    height: 100vh;
+    height: 90vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -435,16 +434,17 @@
   }
 
   header p {
+    font-size: 1.4rem;
     margin-bottom: 1.8rem;
   }
 
   .btn {
     font-size: 1.4rem;
-    padding: 0.8rem 1.6rem;
+    padding: 0.4rem 1.2rem;
   }
 
   .inside-header {
-    padding: 0 0.6rem;
+    padding: 0;
   }
 
   .inside__div-header {
@@ -452,7 +452,6 @@
     margin: 0 auto 20rem auto;
   }
 
-  /* Image sizes and container adjustments */
   .img-1,
   .img-2 {
     width: 14rem;
@@ -467,10 +466,9 @@
     display: block;
     width: fit-content;
     margin-left: 8rem;
-    margin-top: 40rem;
+    margin-top: 24rem;
   }
 
-  /* Base style for all images */
   .phone__img img {
     position: absolute;
     height: auto;
@@ -479,19 +477,16 @@
     transition: transform 0.3s ease;
   }
 
-  /* First image */
   .img-1 {
     z-index: 3;
     transform: translate(-2rem, 5.5rem);
   }
 
-  /* Second image */
   .img-2 {
     z-index: 2;
     transform: translate(6rem, 4rem);
   }
 
-  /* Third image */
   .img-3 {
     z-index: 1;
     transform: translate(0.5rem, -3rem);
@@ -509,6 +504,18 @@
 
   .item {
     padding: 0.6rem 0.8rem;
+  }
+
+  .number {
+    font-size: 1.5rem;
+  }
+
+  .header-text {
+    font-size: 1.5rem;
+  }
+
+  .hidden-box ul {
+    font-size: 1.4rem;
   }
 
   footer {
