@@ -59,9 +59,9 @@
     padding: 1.2rem 1.6rem; /* Reduce padding for smaller viewports */
   }
 
-  .hidden-box ul {
-    font-size: 1.4rem; /* Adjust list item font size */
-  }
+  /* .hidden-box ul {
+    font-size: 1.4rem; 
+  } */
 }
 
 /* *************************** */
@@ -116,11 +116,11 @@
   }
 
   .number {
-    font-size: 1.4rem; /* Slightly reduced font size for numbers */
+    font-size: 1.8rem; /* Slightly reduced font size for numbers */
   }
 
   .header-text {
-    font-size: 1.4rem; /* Reduced text font size */
+    font-size: 1.8rem; /* Reduced text font size */
   }
 
   .icon {
@@ -129,7 +129,7 @@
   }
 
   .hidden-box ul {
-    font-size: 1.2rem; /* Reduced font size for list items */
+    font-size: 1.4rem; /* Reduced font size for list items */
   }
 
   footer {
@@ -187,7 +187,7 @@
   }
 
   .accordions {
-    width: 100%; /* Full width for smaller screens */
+    width: 80%; /* Full width for smaller screens */
     margin: 2rem auto 6rem auto; /* Adjust margins */
   }
 
@@ -195,22 +195,22 @@
     padding: 1rem 1.2rem; /* Reduce padding */
   }
 
-  .number {
-    font-size: 1.2rem; /* Reduce number font size */
-  }
+  /* .number {
+    font-size: 1.2rem; 
+  } */
 
-  .header-text {
-    font-size: 1.2rem; /* Reduce question text size */
-  }
+  /* .header-text {
+    font-size: 1.2rem; 
+  } */
 
   .icon {
     width: 1.8rem; /* Reduce icon size */
     height: 1.8rem;
   }
 
-  .hidden-box ul {
-    font-size: 1.2rem; /* Keep list items readable */
-  }
+  /* .hidden-box ul {
+    font-size: 1.2rem; 
+  } */
 
   footer {
     padding: 1rem 0; /* Adjust footer padding */
@@ -450,17 +450,17 @@
     padding: 0.6rem 0.8rem;
   }
 
-  .number {
+  /* .number {
     font-size: 1.5rem;
-  }
+  } */
 
-  .header-text {
+  /* .header-text {
     font-size: 1.5rem;
-  }
+  } */
 
-  .hidden-box ul {
+  /* .hidden-box ul {
     font-size: 1.4rem;
-  }
+  } */
 
   footer {
     padding: 0.5rem 0;
