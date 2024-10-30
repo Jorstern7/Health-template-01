@@ -140,70 +140,125 @@
 
   /* Adjust font sizes for headers */
   h1 {
-    font-size: 3.5rem;
+    font-size: 4rem;
+    line-height: 1;
   }
 
-  /* h3 {
-    font-size: 1.8rem;
-  } */
-
-  /* Adjust padding, margins, and layout for smaller screens */
-  .nav__header {
-    width: 100%;
-    padding: 1.2rem 4.4rem; /* Reduced padding */
+  h3 {
+    font-size: 2rem; /* Adjusted from 2.4rem */
+    margin: 5rem auto;
+    width: 80%;
   }
 
-  .inside-header {
-    width: 100%; /* Make inside-header take up full width */
-    padding: 0 1rem; /* Add some horizontal padding */
-  }
-
-  .inside__div-header {
-    width: 60%; /* Adjust content width */
-    margin-left: 2rem;
+  p {
+    line-height: 1.5;
   }
 
   header p {
-    margin-bottom: 3.2rem;
+    margin-bottom: 2.8rem;
+  }
+
+  header {
+    background-image: none;
+    background: linear-gradient(135deg, #a8e063, #37b24d);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  header {
+    height: 80vh;
+    background-size: cover;
+  }
+
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 2rem;
+  }
+
+  /* Adjust padding, margins, and layout for smaller screens */
+  .nav__header {
+    display: none;
+  }
+
+  .inside-header {
+    padding: 0 0.8rem;
+    width: 100%;
+  }
+
+  .inside__div-header {
+    text-align: center;
+    margin: 0 auto 30rem auto;
+  }
+
+  .img-1,
+  .img-2 {
+    width: 20rem;
+  }
+
+  .img-3 {
+    width: 22rem;
+  }
+
+  .phone__img {
+    position: absolute;
+    display: block;
+    width: fit-content;
+    margin-top: 18rem;
+    margin-right: 24rem;
+  }
+
+  /* Base style for all images */
+  .phone__img img {
+    position: absolute;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  /* First image (bottom layer) */
+  .img-1 {
+    z-index: 3; /* Lowest layer */
+    transform: translate(-4rem, 7.5rem);
+  }
+
+  /* Second image (middle layer) */
+  .img-2 {
+    z-index: 2;
+    transform: translate(10rem, 5rem); /* Shift right and up */
+  }
+
+  /* Third image (top layer) */
+  .img-3 {
+    z-index: 1;
+    transform: translate(1rem, -4rem);
   }
 
   .custom-button {
-    font-size: 1.8rem; /* Adjust button text size */
-    padding: 0.8rem 1.6rem; /* Reduce padding */
+    font-size: 1.6rem;
+    padding: 0.6rem 1.2rem;
   }
 
   .accordions {
-    width: 80%; /* Full width for smaller screens */
-    margin: 2rem auto 6rem auto; /* Adjust margins */
+    width: 70%;
+    margin: 1.5rem auto 4rem auto;
   }
 
   .item {
-    padding: 1rem 1.2rem; /* Reduce padding */
+    padding: 0.8rem 1rem;
   }
-
-  /* .number {
-    font-size: 1.2rem; 
-  } */
-
-  /* .header-text {
-    font-size: 1.2rem; 
-  } */
-
-  .icon {
-    width: 1.8rem; /* Reduce icon size */
-    height: 1.8rem;
-  }
-
-  /* .hidden-box ul {
-    font-size: 1.2rem; 
-  } */
 
   footer {
-    padding: 1rem 0; /* Adjust footer padding */
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
   }
 
   section {
-    height: 80vh;
+    height: auto;
+    padding: 2rem 0;
   }
 }
 
